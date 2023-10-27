@@ -1,0 +1,113 @@
+/* Style the container for the circular image and text */
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+/* Style the circular image */
+.circular-image {
+    width: 100%; /* Set the desired width for the circular image */
+    height: 100%; /* Set the desired height for the circular image */
+    border-radius: 50%; /* Create a circular shape */
+    object-fit: cover; /* Maintain image aspect ratio and cover the container */
+    object-position: center top;
+    display: block; /* Center the image */
+    position: absolute;
+    top: 0;
+    left: 0; /* Center the image horizontally */
+}
+
+/* Center the heading at the top */
+.centered-heading {
+    position: absolute;
+    top: 4%; /* Adjust this value to move the heading down */
+    left: 57%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the heading as desired */
+.centered-heading h1 {
+    font-size: 35px;
+    color: #000;
+}
+
+/* Style the text under the photo */
+.text-under-photo {
+    text-align: left;
+}
+
+/* Style the text as desired */
+.text-under-photo p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* Style the headers for consistency */
+.text-under-photo p strong {
+    font-size: 25px;
+    color: #000000;
+}
+
+/* Style the text under the photo2 */
+.text-under-photo2 {
+    text-align: left;
+}
+
+/* Style the text as desired */
+.text-under-photo2 p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* Style the headers for consistency */
+.text-under-photo2 p strong {
+    font-size: 25px;
+    color: #000000;
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
+/* Style the social media bar */
+.social-media-bar {
+    text-align: center;
+    background-color: #000000;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 107.5%;
+}
+
+/* Style the social media icons */
+.social-media-bar a {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Add hover effect to the icons */
+.social-media-bar a:hover {
+    color: #55acee; /* Change to the color of your choice */
+}
+
