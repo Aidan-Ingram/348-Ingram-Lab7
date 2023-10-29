@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div class="background-container d-flex flex-column justify-content-center w-100 h-100">
-        <div class="centered-heading">
-            <h1>Hello! My name is Aidan Ingram.</h1>
-        </div>
+    <div id="content"> <!-- Content container with an ID -->
+        <div class="background-container d-flex flex-column justify-content-center w-100 h-100">
+            <div class="centered-heading">
+                <h1>Hello! My name is Aidan Ingram.</h1>
+            </div>
 
-        <div class="container">
-            <img class="circular-image" src="images/profilepic.PNG" alt="Circular Image">
-        </div>
+            <div class="container">
+                <img class="circular-image" src="images/profilepic.PNG" alt="Circular Image">
+            </div>
 
-        <div class="text-under-photo">
-            <p><strong>My contact info:</strong></p>
-            <div class="text-under-header">
-                <p>Mobile Phone: 913-424-2908 <br>
-                    Email Address: aidan.ingram@ku.edu <br>
-                    Home Address: 12345 Not Putting That, KS <br>
-                    Github Link: <a href="https://github.com/Aidan-Ingram?tab=repositories">My Repo's</a>
-                </p>
+            <div class="additional-text">
+                <p><strong>Here's a picture I took on the last day of my summer internship!</strong></p>
+                <img src="images/internshipdone.jpg" alt="Summer Internship Picture" class="internship-image">
+            </div>
+
+            <div class="text-under-photo">
+                <p><strong>My contact info:</strong></p>
+                <div class="text-under-header">
+                    <p>Mobile Phone: 913-424-2908 <br>
+                        Email Address: aidan.ingram@ku.edu <br>
+                        Home Address: 12345 Not Putting That, KS <br>
+                        Interested in what I've done for EECS 348? <a href="https://github.com/Aidan-Ingram?tab=repositories">My Repo's</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-under-photo2">
+                <p><strong>Still here?</strong></p>
+                <div class="text-under-header2">
+                    <p>Check out this sick(?) YouTube video!</p><br>
+                    <iframe width="600" height="400" src="https://www.youtube.com/embed/LDU_Txk06tM?si=G8I41-vo5gQDIAAa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
-
-        <div class="text-under-photo2">
-            <p><strong>Still here?</strong></p>
-            <div class="text-under-header2">
-                <p>Check out this sick(?) YouTube video!</p><br>
-                <iframe width="600" height="400" src="https://www.youtube.com/embed/LDU_Txk06tM?si=G8I41-vo5gQDIAAa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+        <div class="social-media-bar">
+            <a href="https://www.instagram.com/awi03/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/AidanWIngram1" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/aido.ingo/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/aidan-ingram/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
     </div>
-    <div class="social-media-bar">
-        <a href="https://www.instagram.com/your-instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/your-twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.facebook.com/your-facebook" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="https://github.com/your-github" target="_blank"><i class="fab fa-github"></i></a>
-    </div>
-    
 </body>
 </html>

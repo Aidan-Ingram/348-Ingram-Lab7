@@ -22,7 +22,7 @@
 .centered-heading {
     position: absolute;
     top: 4%; /* Adjust this value to move the heading down */
-    left: 57%;
+    left: 50%;
     transform: translateX(-50%);
     text-align: center;
     width: 100%;
@@ -95,7 +95,8 @@ body {
     padding: 10px 0;
     position: absolute;
     bottom: 0;
-    width: 107.5%;
+    width: 100%;
+    margin-left: 0 !important; /* Remove the margin on the left side */
 }
 
 /* Style the social media icons */
@@ -110,4 +111,35 @@ body {
 .social-media-bar a:hover {
     color: #55acee; /* Change to the color of your choice */
 }
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/* Style the additional text container */
+/* Style the additional text container */
+.additional-text {
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    right: 100px;
+}
 
+/* Style the text as desired */
+.additional-text p {
+    font-size: 25px; /* Adjust the font size as needed (match it to your text-under-photo) */
+    color: #ffffff; /* Adjust the text color (match it to your text-under-photo) */
+}
+
+/* Style the headers for consistency (optional) */
+.additional-text p strong {
+    font-size: 25px; /* Adjust the font size as needed (match it to your text-under-photo) */
+    color: #ffffff; /* Adjust the text color (match it to your text-under-photo) */
+}
+
+/* Style for the internship image */
+.internship-image {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; 
+    margin-right: 50px;/* Add some margin to separate it from the text */
+}
